@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Sign Up</h2>
+
+        <form>
+            <div class="input-group">
+                <label for="name">Name: </label>
+                <input name="name" id="name" type="text" required>
+            </div>
+
+            <div class="input-group">
+                <label for="surname">Surname: </label>
+                <input name="surname" id="surname" type="text" required>
+            </div>
+
+            <div class="input-group">
+                <label>Gender: </label>
+                <label for="male"><input type="radio" id="male" name="gender" value="male">Male</label>
+                <label for="female"><input type="radio" id="female" name="gender" value="female">Female</label>
+            </div>
+
+            <div class="input-group">
+                <label for="birthdate">Birthdate: </label>
+                <input type="date" id="birthdate" name="birthdate" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email: </label>
+                <input name="email" id="email" type="email" required>
+            </div>
+
+            <div class="input-group">
+                <label>Membership: </label>
+                <label for="basic"><input type="radio" id="basic" name="membership" value="basic"> Basic</label>
+                <label for="pro"><input type="radio" id="pro" name="membership" value="pro"> Pro</label>
+                <label for="lifetime"><input type="radio" id="lifetime" name="membership" value="lifetime"> Lifetyme</label>
+            </div>
+
+            <button type="submit" class="btn">Sign Up</button>
+        </form>
+
+    </div>
+    
+</body>
+</html>
